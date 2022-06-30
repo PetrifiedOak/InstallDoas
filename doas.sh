@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "how do you install packages? example= pacman -S"
+echo "Sometimes doas is called opendoas, make sure to do pacman -S opendoas then"
 read pkgmanager
 $pkgmanager doas 
 
