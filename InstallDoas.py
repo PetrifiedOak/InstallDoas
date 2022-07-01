@@ -11,6 +11,9 @@ if pkg == "apt":
 if pkg == "pacman":
  subprocess.run(["pacman", "-S opendoas"])
  
+ if pkg == "dnf":
+  subprocess.run(["dnf", "install opendoas"])
+ 
 
 
 nopass = (input("Do you want nopass? (1 for yes 2 for no)"))
