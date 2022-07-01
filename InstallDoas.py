@@ -42,12 +42,12 @@ else:
 user = (input("Whats your user named?"))
 
 if nopass == "yes":
- file = open("test", "w")
+ file = open("/etc/doas.conf", "w")
  file.write("permit nopass " + user + " as root")
  file.close()
 
 elif nopass == "no":
- file = open("test", "w")
+ file = open("/etc/doas.conf", "w")
  file.write("permit persist " + user + " as root")
  file.close()
 
