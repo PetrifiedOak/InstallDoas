@@ -1,3 +1,1 @@
-# InstallDoas
-make sure to run the script as root.
-Make sure to delete sudo before doing this.
+please dont use this, its shitty af 
